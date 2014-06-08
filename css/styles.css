@@ -1,0 +1,333 @@
+/* -------------------
+ * Clearfix
+ * -------------------
+ */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+
+/* -------------------
+ * Typography
+ * -------------------
+ */
+
+html, body {
+  font-family: 'adelle', 'serif';
+  color: #434343;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+b {
+  font-weight: 700;
+}
+
+i {
+  font-style: italic;
+}
+
+h1, h2, h3 {
+  font-size: 3.25em;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'atrament-web', sans-serif;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+
+/* -------------------
+ * Styles
+ * -------------------
+ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+hr {
+  margin-top: 2em;
+  margin-bottom: 3em;
+  height: 4px;
+  width: 53px;
+  border: none;
+  background-color: #434343;
+}
+
+.row {
+  width: 100%;
+  position: relative;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.container, .grid {
+  margin: 0 auto;
+  max-width: 675px;
+  text-align: center;
+}
+
+.row.fullbleed .container {
+  max-width: 100%;
+}
+
+.grid:before,
+.grid:after {
+  content: "";
+  display: table;
+}
+
+.grid:after {
+  clear: both;
+}
+
+.grid {
+  *zoom: 1;
+}
+
+.grid .c1 {
+  width: 100%;
+}
+
+.grid .c2 {
+  width: 50%;
+  float: left;
+}
+
+.btn {
+  font-size: 1.25em;
+  display: inline-block;
+  font-weight: 500;
+  text-decoration: none;
+  background: #1bb1ba;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: relative;
+  letter-spacing: 1px;
+  border-bottom: 0;
+  font-family: 'atrament-web', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #1bb1ba;
+}
+
+header {
+  background-image: url(/images/header-bg.jpg);
+  background-size: cover;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+header.row {
+  margin-top: 0;
+}
+
+header .container h1 {
+  font-size: 4em;
+  color: #fcb614;
+  padding: 9px;
+  border: 7px solid white;
+  display: inline-block;
+  margin-bottom: 0.15em;
+}
+
+header .container h2 {
+  font-size: 1.75em;
+  padding: 7px;
+  background-color: white;
+  color: #1bb1ba;
+  display: inline-block;
+  text-transform: none;
+  margin-bottom: 2.5em;
+}
+
+header .container a.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  margin-bottom: 2em;
+  display: inline-block;
+}
+
+header .container a.logo b {
+  font-weight: 700;
+}
+
+header .container a.logo span {
+  font-weight: 300;
+}
+
+header .btn.tickets {
+  margin: 0 auto;
+}
+
+section.intro p {
+  font-size: 1.25em;
+}
+
+section.prizes .grid.crowd {
+  margin-top: 5em;
+}
+
+section.prizes .prize {
+  text-align: center;
+}
+
+section.prizes .prize img {
+  margin-bottom: 1em;
+}
+
+section.prizes .prize p {
+  margin: 0;
+}
+
+section.prizes .prize p.judged {
+  margin-top: 0.75em;
+}
+
+section.schedule .grid {
+  border: 7px solid #fcb614;
+  padding: 3em 0 1em 0;
+}
+
+section.schedule h3 {
+  font-size: 1.75em;
+  background-color: #1bb1ba;
+  color: white;
+  padding: 7px;
+  display: inline-block;
+  text-transform: none;
+}
+
+section.schedule ul li {
+  margin-bottom: 1.25em;
+}
+
+section.schedule ul li span {
+  color: #999;
+  display: block;
+  font-weight: 300;
+}
+
+section.schedule ul li p {
+  margin-bottom: 0em;
+}
+
+section.venue .map {
+  position: relative;
+}
+
+section.venue .map .venue-box {
+  position: absolute;
+  top: 15%;
+  right: 8%;
+  z-index: 10;
+  background: white;
+  padding: 1.5em;
+  border: 7px solid rgba(0, 0, 0, 0.2);
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+section.venue .map .venue-box h3,
+section.venue .map .venue-box p {
+  margin-bottom: 0.5em;
+  text-align: right;
+}
+
+section.venue .map .venue-box h3 {
+  font-size: 1.25em;
+}
+
+section.venue .map .venue-box p.website {
+  margin-bottom: 0;
+}
+
+
+/* -------------------
+ * Mobile
+ * -------------------
+ */
+
+@media all and (max-width: 41em) {
+  .row {
+    padding-left: 2em;
+    padding-right: 2em;
+    width: auto;
+  }
+
+  .row .container {
+    width: auto;
+  }
+
+  section.venue .map .venue-box {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border: none;
+  }
+
+  section.venue .map .venue-box h3,
+  section.venue .map .venue-box p {
+    text-align: center;
+  }
+
+  .grid .c1, .grid .c2 {
+    width: 100%;
+    float: none;
+  }
+
+  section.prizes .prize.c2 {
+    margin-bottom: 3em;
+  }
+
+  section.prizes .grid.crowd {
+    margin-top: 0;
+  }
+
+  section.schedule .grid .c2 {
+    margin-bottom: 3em;
+  }
+}

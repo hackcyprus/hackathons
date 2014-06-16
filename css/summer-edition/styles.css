@@ -1,3 +1,5 @@
+
+
 /* -------------------
  * Clearfix
  * -------------------
@@ -117,6 +119,18 @@ hr {
 
 .grid .c2 {
   width: 50%;
+  float: left;
+}
+.grid .c3 {
+  width: 33%;
+  float: left;
+}
+.grid .c4 {
+  width: 25%;
+  float: left;
+}
+.grid .c5 {
+  width: 20%;
   float: left;
 }
 
@@ -314,7 +328,7 @@ section.venue .map .venue-box p.website {
     text-align: center;
   }
 
-  .grid .c1, .grid .c2 {
+  .grid .c1, .grid .c2, .grid .c3, .grid .c4, .grid.c5 {
     width: 100%;
     float: none;
   }

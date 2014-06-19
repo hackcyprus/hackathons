@@ -297,7 +297,14 @@ section.venue .map .venue-box p.website {
   margin-bottom: 0;
 }
 
-
+footer.row hr{
+  margin-top: 2em;
+  margin-bottom: 3em;
+  height: 1px;
+  width: 100%;
+  border: none;
+  background-color: #787878;
+}
 /* -------------------
  * Mobile
  * -------------------

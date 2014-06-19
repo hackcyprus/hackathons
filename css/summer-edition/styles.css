@@ -345,3 +345,93 @@ section.venue .map .venue-box p.website {
     margin-bottom: 3em;
   }
 }
+
+/*
+
+  Sponsors & Supporters stylesheet
+
+*/
+
+.sponsorrow{
+  padding-top: 20px;
+}
+.supporters {
+  padding-top: 4em;
+}
+.supporters.extra {
+  padding-bottom: 2em;
+  padding-top: 0;
+}
+.supporters.extra ul.tera {
+  margin-bottom: 0;
+}
+.supporters ul {
+  zoom: 1;
+}
+.supporters ul:before,
+.supporters ul:after {
+  content: "";
+  display: table;
+}
+.supporters ul:after {
+  clear: both;
+}
+.supporters ul.tera {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+.supporters.supporters-rest {
+  padding-top: 0;
+}
+.supporters.supporters-rest ul.generic {
+  margin-bottom: 4em;
+}
+.supporters.supporters-rest ul.media {
+  margin-top: 4em;
+}
+.supporters.supporters-rest ul.media .supporter-logo.small {
+  width: 25%;
+}
+.supporters .supporter-logo {
+  float: left;
+}
+.supporters .supporter-logo.big {
+  width: 50%;
+}
+.supporters .supporter-logo.medium {
+  width: 35%;
+}
+.supporters .supporter-logo.small {
+  width: 20%;
+}
+.supporters .supporter-logo.small h4 {
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+.supporters .supporter-logo.small h3 {
+  font-weight: 600;
+}
+.supporters .supporter-logo.small.fake {
+  display: block;
+}
+.supporters .supporter-logo.small.no-img {
+  display: block;
+  height: 89px;
+}
+.supporters .supporter-logo a {
+  margin: 0.5em;
+  border: 0;
+  display: block;
+}
+.supporters .supporter-logo a img {
+  display: block;
+  width: 100%;
+}
+.supporters ul.tera .supporter-logo.big {
+  width: 50%;
+  margin: 0 25% 0 25%;
+}
+.supporters ul.tera .supporter-logo.medium {
+  width: 40%;
+  margin: 0 30% 0 30%;
+}

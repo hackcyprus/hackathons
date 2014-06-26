@@ -447,3 +447,10 @@ footer.row hr{
   width: 40%;
   margin: 0 30% 0 30%;
 }
+
+.judgerow{
+  padding-top:30px;
+}
+.judge ul li.judgename{
+  font-weight:600
+}

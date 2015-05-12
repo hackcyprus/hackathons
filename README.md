@@ -1,4 +1,4 @@
-pink
-====
+hackathons
+==========
 
-marketing pages for the Pink Edition events
+The hackathons website

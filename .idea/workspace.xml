@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a30f05ee-4232-4adb-a2f0-17095ae2da90" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/summer-edition/styles.css" afterPath="$PROJECT_DIR$/css/2014/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/index.html" afterPath="$PROJECT_DIR$/2014/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/judges/adonis_yiangou.jpg" afterPath="$PROJECT_DIR$/2014/judges/adonis_yiangou.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/judges/antonis_hadjiantonis.jpg" afterPath="$PROJECT_DIR$/2014/judges/antonis_hadjiantonis.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/judges/doros_agathangelou.jpg" afterPath="$PROJECT_DIR$/2014/judges/doros_agathangelou.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/judges/michalis_strouthos.jpg" afterPath="$PROJECT_DIR$/2014/judges/michalis_strouthos.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/judges/nearchos_paspallis.jpg" afterPath="$PROJECT_DIR$/2014/judges/nearchos_paspallis.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/b3website.png" afterPath="$PROJECT_DIR$/2014/supporters/b3website.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/ccs.png" afterPath="$PROJECT_DIR$/2014/supporters/ccs.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/cocoon.png" afterPath="$PROJECT_DIR$/2014/supporters/cocoon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/cut.png" afterPath="$PROJECT_DIR$/2014/supporters/cut.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/fozzy.png" afterPath="$PROJECT_DIR$/2014/supporters/fozzy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/infinity_logo.png" afterPath="$PROJECT_DIR$/2014/supporters/infinity_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/jppmarketing.png" afterPath="$PROJECT_DIR$/2014/supporters/jppmarketing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/kemanes.png" afterPath="$PROJECT_DIR$/2014/supporters/kemanes.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/ksa.png" afterPath="$PROJECT_DIR$/2014/supporters/ksa.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/leon.png" afterPath="$PROJECT_DIR$/2014/supporters/leon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/oliveoil_oregano.png" afterPath="$PROJECT_DIR$/2014/supporters/oliveoil_oregano.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/openboxcommunications_logo.png" afterPath="$PROJECT_DIR$/2014/supporters/openboxcommunications_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/pixelactions_logo.png" afterPath="$PROJECT_DIR$/2014/supporters/pixelactions_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/pro_motion.png" afterPath="$PROJECT_DIR$/2014/supporters/pro_motion.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/redbull.jpg" afterPath="$PROJECT_DIR$/2014/supporters/redbull.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/startupper.gr.jpg" afterPath="$PROJECT_DIR$/2014/supporters/startupper.gr.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/summer-edition/supporters/tschinis.png" afterPath="$PROJECT_DIR$/2014/supporters/tschinis.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2015/index.html" afterPath="$PROJECT_DIR$/2015/index.html" />
     </list>
     <ignored path="hackathons.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,80 +25,7 @@
     <favorites_list name="hackathons" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="color-defaults.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/2015/css/color-defaults.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="color-defaults.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/2015/css/color-defaults.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4914">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swatch-black-yellow.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/2015/css/swatch-black-yellow.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18858">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swatch-black-yellow.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/2015/css/swatch-black-yellow.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/2015/css/theme.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3549" max-vertical-offset="304479">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/2015/js/contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="27069">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/2015/js/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63" vertical-offset="0" max-vertical-offset="5124">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -206,6 +107,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackathons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackathons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -274,7 +189,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -282,7 +197,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21030043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21030043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -446,17 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2015/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1575" vertical-offset="3589" max-vertical-offset="4641">
-          <caret line="215" column="7" selection-start-line="215" selection-start-column="7" selection-end-line="215" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
@@ -473,25 +377,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/2015/css/color-defaults.min.css">
+    <entry file="file://$PROJECT_DIR$/2014/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23625" vertical-offset="21" max-vertical-offset="5985">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/2015/css/color-defaults.css">
+    <entry file="file://$PROJECT_DIR$/assets/2015/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4914">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.63" vertical-offset="0" max-vertical-offset="5124">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/2015/css/swatch-black-yellow.css">
+    <entry file="file://$PROJECT_DIR$/assets/2015/js/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18858">
+        <state vertical-scroll-proportion="-0.02625" vertical-offset="21" max-vertical-offset="27069">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/2015/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.43625" vertical-offset="3549" max-vertical-offset="304479">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -505,29 +419,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/2015/css/theme.css">
+    <entry file="file://$PROJECT_DIR$/assets/2015/css/swatch-black-yellow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304479">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18858">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/2015/js/contact.js">
+    <entry file="file://$PROJECT_DIR$/assets/2015/css/color-defaults.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26880">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4914">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/2015/css/color-defaults.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2015/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5775" vertical-offset="0" max-vertical-offset="4977">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/2015/js/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63" vertical-offset="0" max-vertical-offset="5124">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

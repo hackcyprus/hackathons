@@ -29,6 +29,25 @@
         <link rel="stylesheet" href="/assets/2015/css/swatch-yellow-black.css">
         <link rel="stylesheet" href="/assets/2015/css/swatch-black-yellow.min.css">
         <link rel="stylesheet" href="/assets/2015/css/fonts.min.css" media="screen">
+        <style>
+            .sponsor-shadow{
+                -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
+                -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
+                box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
+            }
+            /* centered columns styles */
+            .row-centered {
+                text-align:center;
+            }
+            .col-centered {
+                display:inline-block;
+                float:none;
+                /* reset the text-align */
+                text-align:left;
+                /* inline-block space fix */
+                margin-right:-4px;
+            }
+        </style>
     </head>
     <body>
         <header id="masthead" class="navbar navbar-sticky swatch-black-yellow" role="banner">
@@ -45,20 +64,24 @@
                 </div>
                 <nav class="collapse navbar-collapse main-navbar" role="navigation">
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <!-- <a href="#">Home</a>-->
-                        </li>
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#hardware">Hardware</a></li>
+                        <li><a href="#prizes">Prizes</a></li>
+                        <li><a href="#sponsors">Sponsors</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#location">Location</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <div id="content" role="main">
-            <section class="section swatch-black-yellow">
+            <section class="section swatch-black-yellow" id="top">
                 <div class="container">
                     <header class="section-header underline">
                         <h1 class="headline hyper hairline">2015.</h1>
                         <p class="big">The year we go big</p>
                         <p class="big">26-28 June - Capital Impact</p>
+                        <p>Tickets going live on Tuesday, 2 June</p>
                     </header>
                 </div>
             </section>
@@ -135,13 +158,140 @@
                     </div>
                 </div>
             </section>
+            <section class="section swatch-black-yellow has-top" id="hardware">
+                <div class="decor-top">
+                    <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
+                    </svg>
+                </div>
+                <div class="container">
+                    <header class="section-header no-underline">
+                        <h1 class="headline hyper hairline">Play with hardware!</h1>
+                    </header>
+                    <p class="text-center">
+                        In addition to everything else above, we will also bring along hardware that you can hack on and make awesome projects!
+                    </p>
+                    <div class="row row-centered">
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <img class="img-rounded img-responsive" src="/assets/2015/hardware/oculus-rift.png">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <img class="img-rounded img-responsive" src="/assets/2015/hardware/myo.png">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <img class="img-rounded img-responsive" src="/assets/2015/hardware/leap-motion.png">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <img class="img-rounded img-responsive" src="/assets/2015/hardware/estimote.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-centered">
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <img class="img-rounded img-responsive" src="/assets/2015/hardware/pebble.png">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <img class="img-rounded img-responsive" src="/assets/2015/hardware/fire-phone.png">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <img class="img-rounded img-responsive" src="/assets/2015/hardware/tessel.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section swatch-yellow-black has-top" id="prizes">
+                <div class="decor-top">
+                    <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
+                    </svg>
+                </div>
+                <div class="container">
+                    <header class="section-header no-underline">
+                        <h1 class="headline hyper hairline">Prizes</h1>
+                        <p class="text-center">We have awesome and cool prizes to give away for all winners and we are still adding!</p>
+                    </header>
+                    <div class="row row-centered">
+                        <div class="col-md-4 col-centered">
+                            <h3 class="bordered-header text-center">First prize</h3>
+                            <p class="text-center">
+                                5 Dell Tablets
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-centered">
+                            <h3 class="bordered-header text-center">Best decision making hack</h3>
+                            <p class="text-center">
+                                5 Parrot Rollind Spider Minidrones
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <section class="section swatch-black-yellow has-top" id="sponsors">
+                <div class="decor-top">
+                    <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0 L100 100 L0 100" stroke-width="0"></path>
+                    </svg>
+                </div>
+                <div class="container">
+                    <header class="section-header no-underline">
+                        <h1 class="headline hyper hairline">We <i class="fa fa-heart" style="color:#DC2F31"></i> our sponsors</h1>
+                    </header>
+                    <p class="text-center">Thanks to our sponsors and partners below, we're able to run Hack{Cyprus} for free.</p>
+                </div>
+            </section>
+            <section class="section swatch-yellow-black">
+                <div class="container">
+                    <div class="row row-centered">
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <a href="http://www.bloomberg.com/europe" target="_blank"><img class="img-rounded img-responsive" src="/assets/2015/sponsors/bloomberg.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <a href="http://www.pixelactions.com/" target="_blank"><img class="img-rounded img-responsive" src="/assets/2015/sponsors/pixelactions.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <a href="http://www.redbull.com.gr/cs/Satellite/el_GR/%CE%9A%CE%A5%CE%A0%CE%A1%CE%9F%CE%A3/001243195994368" target="_blank"><img class="img-rounded img-responsive" src="/assets/2015/sponsors/redbull.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-centered">
+                            <div class="sponsor-shadow">
+                                <a href="http://www.cocooncreations.net/" target="_blank"><img class="img-rounded img-responsive" src="/assets/2015/sponsors/cocoon.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row padding-top row-centered">
+                        <div class="col-md-3 col-centered col-sm-6">
+                            <a href="http://studentlife.com.cy/" target="_blank"><img src="/assets/2015/sponsors/student-life.png" class="img-rounded img-responsive"></a>
+                        </div>
+                        <div class="col-md-3 col-centered col-sm-6">
+                            <a href="http://www.mlh.io" target="_blank"><img src="/assets/2015/sponsors/mlh.png" class="img-rounded img-responsive"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section class="section swatch-black-yellow has-top">
                 <div class="decor-top">
                     <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
                     </svg>
-
                 </div>
                 <div class="container">
                     <header class="section-header underline">
@@ -164,7 +314,63 @@
                     </div>
                 </div>
             </section>
-            <section class="section swatch-yellow-black has-top has-bottom">
+
+            <section class="section swatch-yellow-black has-top" id="faq">
+                <div class="decor-top">
+                    <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
+                    </svg>
+                </div>
+                <div class="container">
+                    <header class="section-header underline">
+                        <h1 class="headline super hairline">Frequently Asked Questions</h1>
+                    </header>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <h3 class="bordered-header text-center">When is Hack{Cyprus}?</h3>
+                            26 June - 28 June 2015
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="bordered-header text-center">Is it really free?</h3>
+                            Yes!
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="bordered-header text-center">Even food?</h3>
+                            Yes! Thanks to our amazing sponsors we will be offering meals, snacks and drinks to everyone.
+                        </div>
+                    </div>
+                    <div class="row text-center padding-top">
+                        <div class="col-md-4">
+                            <h3 class="bordered-header text-center">Wait, what's a hackathon?</h3>
+                            Hackathons are events where people compete to build interesting technical projects in under 36 hours. Students come together, form teams, share ideas, and help each other build awesome things. All skill levels are highly welcome, so don't be intimidated if you don't feel your coding is up to scratch.
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="bordered-header text-center">Can I attend Hack{Cyprus}?</h3>
+                            Everyone is welcome! As long as you are ready to bring your awesome idea to life and follow our simple guidelines you are good to come!
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="bordered-header text-center">Do I need to have a team?</h3>
+                            You're welcome to make a team before the event, but loads of people come without a team. At the start of the event, we'll help everyone find a team. One of the best things about hackathons is meeting hackers from all over the country.
+                        </div>
+                    </div>
+                    <div class="row text-center padding-top">
+                        <div class="col-md-4">
+                            <h3 class="bordered-header text-center">Where do I get tickets?</h3>
+                            Tickets will be released soon!
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="bordered-header text-center">What time should I arrive?</h3>
+                            We will be posting up a schedule soon
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="bordered-header text-center">Who's organising Hack{Cyprus}?</h3>
+                            Hack{Cyprus} Hackathons is organised by <a href="http://projectcel.com/">CEL</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section swatch-black-yellow has-top">
                 <div class="decor-top">
                     <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0 L100 100 L0 100" stroke-width="0"></path>
@@ -196,7 +402,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section" style="padding:0px">
+            <section class="section" style="padding:0px" id="location">
                 <div class="google-map" id="map" style="width: 100%; padding-top: 0px;margin-top: 0px;" ></div>
             </section>
             <footer id="footer" role="contentinfo">

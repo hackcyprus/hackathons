@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Adelle';
+  src: url('../fonts/Adelle_Bold') format('opentype');}
+
+html, body {
+    background:#000;
+    color:#fff;
+}
+h1, h2, h3, h4, h5 {
+    font-family:'Adelle';
+}
+section {
+    padding:100px 40px;
+}
+
+.header-logo {
+    margin:0 auto;
+}
+
+.huge {
+    font-size:100px;
+}
+
+.headline {
+  font-size: 56px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+.image-sm {
+    max-width:150px;
+}
+.top100 {
+    margin-top:100px;
+}
+footer {
+    background:#000;
+    position:fixed;
+    bottom:70px;
+    width:100%;
+}

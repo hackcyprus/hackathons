@@ -3,7 +3,7 @@
   src: url('../fonts/Adelle_Bold') format('opentype');}
 
 html, body {
-    background:#000;
+    background:#444;
     color:#fff;
 }
 h1, h2, h3, h4, h5 {

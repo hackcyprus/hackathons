@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a30f05ee-4232-4adb-a2f0-17095ae2da90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2016/index.html" afterPath="$PROJECT_DIR$/2016/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/2016/css/custom.css" afterPath="$PROJECT_DIR$/assets/2016/css/custom.css" />
     </list>
     <ignored path="hackathons.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,21 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2016/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29595014">
+            <state vertical-scroll-proportion="-11.875">
               <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/2016/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.075987846">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -102,8 +102,8 @@
         <option value="$PROJECT_DIR$/assets/2015/css/swatch-yellow-black.css" />
         <option value="$PROJECT_DIR$/assets/2015/js/map.js" />
         <option value="$PROJECT_DIR$/2015/index.html" />
-        <option value="$PROJECT_DIR$/assets/2016/css/custom.css" />
         <option value="$PROJECT_DIR$/2016/index.html" />
+        <option value="$PROJECT_DIR$/assets/2016/css/custom.css" />
       </list>
     </option>
   </component>
@@ -860,18 +860,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/2016/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/2016/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2016/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/2016/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29595014">
-          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.075987846">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -1,72 +1,642 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hack{Cyprus} Hackathons | 2015</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=3"/>
-    <link rel="icon" type="image/png" href="/favicon.png?v=3"/>
+
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>Hack Cyprus Hackathons 2016</title>
+
+    <meta name="description" content="Hack Cyprus Hackathons: 2016.">
+    <meta name="keywords" content="Hackathon Cyprus hackcyprus hack cyprus cel cypriot enterprise link projectcel">
+    <meta name="author" content="Cypriot Enterprise Link">
 
     <meta property="fb:app_id" content="101469336666147">
     <meta property="og:type" content="event">
-    <meta property="event:start_time" content="2016-06-24T09:00:00+03">
+    <meta property="event:start_time" content="2016-06-24T19:00:00+03">
     <meta property="og:url" content="http://hackathons.hackcyprus.com/2016/">
     <meta property="og:title" content="Hack Cyprus Hackathons: 2016">
-    <meta property="og:image" content="http://hackathons.hackcyprus.com/assets/2016/images/socialmedia-large.png">
+    <meta property="og:image" content="http://hackathons.hackcyprus.com/2016/assets/img/socialmedia-large.png">
     <meta property="og:description"
-          content="Put your hacking hat on and join 150+ creative developers, designers and ideators for 30 hours of hacking, designing, tinkering and making of awesome things – web, mobile, hardware, anything goes.">
+          content="Put your hacking hat on and join 130+ creative developers, designers and ideators for 30 hours of hacking, designing, tinkering and making of awesome things – web, mobile, hardware, anything goes.">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@hackcyprus">
     <meta name="twitter:creator" content="@hackcyprus">
     <meta name="twitter:title" content="Hack Cyprus Hackathons: 2016">
-    <meta name="twitter:image" content="http://hackathons.hackcyprus.com/assets/2015/images/socialmedia-large.png">
+    <meta name="twitter:image" content="http://hackathons.hackcyprus.com/2016/assets/img/socialmedia-large.png">
     <meta name="twitter:description"
-          content="Put your hacking hat on and join 150+ creative developers, designers and ideators for 30 hours of hacking, designing, tinkering and making of awesome things – web, mobile, hardware, anything goes.">
+          content="Put your hacking hat on and join 130+ creative developers, designers and ideators for 30 hours of hacking, designing, tinkering and making of awesome things – web, mobile, hardware, anything goes.">
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic' rel='stylesheet'
-          type='text/css'>
-    <link rel="stylesheet" href="/assets/2016/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/2015/css/swatch-yellow-black.css">
-    <link rel="stylesheet" href="/assets/2015/css/swatch-black-yellow.min.css">
-    <link rel="stylesheet" href="/assets/2015/css/fonts.min.css" media="screen">
-    <link rel="stylesheet" href="/assets/2016/css/custom.css" media="screen">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="assets/img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/img/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="assets/img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-<div id="content" role="main">
-    <section class="section coming-soon">
+<div class="preloader-mask">
+    <div class="preloader"></div>
+</div>
+
+<section id="hero" class="hero-section bg1 bg-cover window-height light-text">
+    <ul class="socials-nav">
+        <li class="socials-nav-item"><a href="https://twitter.com/cyentlink" target="_blank"><span
+                class="fa fa-twitter"></span></a></li>
+        <li class="socials-nav-item"><a href="https://www.facebook.com/CypriotEnterpriseLink" target="_blank"><span
+                class="fa fa-facebook"></span></a></li>
+
+    </ul>
+    <div class="heading-block centered-block align-center">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <header class="section-header text-center">
-                        <img src="/assets/2016/images/hc-hackathons-full.png" class="img-responsive header-logo">
-                        <h1>2016 | 24-26 June</h1>
-                        <h2>@ Limassol</h2>
-                        <h1 class="top100">#letshackinghack</h1>
-                        <div class="text-center top100">
-                            <img src="/assets/2016/images/cel.png" class="image-sm">
-                        </div>
-                    </header>
-                </div>
-                </header>
+            <h5 class="heading-alt" style="margin-bottom: 8px;"><span class="fa fa-calendar-o base-clr-txt"></span>24 -
+                26 June
+                <span class="fa fa-map-marker base-clr-txt" style="margin-left: 14px;"></span>Limassol, Cyprus</h5>
+            <h1 class="extra-heading"><img src="assets/img/hc-logo.png"></h1>
+            <h3 class=" base-font">#letshackinghack</strong></h3>
+            <div class="btns-container">
+                <a href="http://hackcy2016.eventbrite.com/" target="_blank" class="btn btn-md">GET YOUR TICKET</a>
+                <a href="#about" class="btn btn-outline btn-md" data-modal-link="0">Learn More</a>
             </div>
         </div>
-    </section>
-</div>
-<script type="text/javascript">
+    </div>
+</section>
+
+<header class="header header-black">
+    <div class="header-wrapper">
+        <div class="container">
+            <div class="col-sm-2 col-xs-12 navigation-header">
+                <a href="#" class="logo">
+                    <img src="assets/img/hc-logo.png" alt="VentCamp" class="header-logo retina-hide">
+                    <img src="assets/img/hc-logo.png" alt="VentCamp" class="header-logo retina-show">
+                </a>
+
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation"
+                        aria-expanded="false" aria-controls="navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="col-sm-10 col-xs-12 navigation-container">
+                <div id="navigation" class="navbar-collapse collapse">
+                    <ul class="navigation-list pull-left light-text">
+                        <li class="navigation-item"><a href="#about" class="navigation-link">Introduction</a></li>
+                        <li class="navigation-item"><a href="#hardware" class="navigation-link">Hardware</a></li>
+                        <li class="navigation-item"><a href="#schedule" class="navigation-link">Schedule</a></li>
+                        <li class="navigation-item"><a href="#sponsors" class="navigation-link">Sponsors</a></li>
+                        <li class="navigation-item"><a href="#faq" class="navigation-link">FAQ</a></li>
+                        <li class="navigation-item"><a href="#venue" class="navigation-link">Venue</a></li>
+                    </ul>
+
+                    <a href="http://hackcy2016.eventbrite.com/" target="_blank" class="pull-right buy-btn">Get
+                        Tickets</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="about" class="section align-center black-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <span class="icon section-icon icon-code"><i class="fa fa-code"></i></span>
+                <h3>Half a decade of hacking</h3>
+                <h6>
+                    Over the past four years, we introduced the first hackathon in Cyprus. We went from teaching people
+                    in Cyprus about the meaning of the word "hackathon", to being the organisers of the most anticipated
+                    weekend of hacking on hardware, mobile and the web.
+                    <br><br><br>
+                    For our 5th anniversary, we are revisiting CUT where it all began! Come join us for a celebratory
+                    hackathon where you'll get the chance to tinkle with awesome hardware, meet techies like you from
+                    all around Europe, build awesome stuff and of course have some birthday cake!
+                </h6>
+            </div>
+        </div>
+
+
+        <br/>
+        <br/>
+    </div>
+</section>
+
+<section id="counters" class="section align-center overlay bg-cover bg5 light-text">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h3>What to expect</h3>
+            </div>
+        </div>
+        <div class="row counters-wrapper top100">
+            <div class="col-sm-3">
+                <h3 class="highlight yellow">
+                    130+
+                </h3>
+                <h5>Attendees</h5>
+                <p>130+ creative developers, designers and ideators</p>
+            </div>
+            <div class="col-sm-3">
+                <h3 class="highlight">
+                    <i class="fa fa-code "></i>
+                </h3>
+                <h5>Limitless Hacking</h5>
+                <p>50+ hours of hacking, designing, tinkering and making awesome things.</p>
+            </div>
+            <div class="col-sm-3">
+                <h3 class="highlight">
+                    <i class="fa fa-cutlery"></i>
+                </h3>
+                <h5>We provide</h5>
+                <p>We'll provide food, drinks, lots of coffee, shirts, swag and internet.</p>
+            </div>
+            <div class="col-sm-3">
+                <h3 class="highlight">
+                    <i class="fa fa-lightbulb-o"></i>
+                </h3>
+                <h5>You need</h5>
+                <p>Bring your laptop, creativity and skills and make that idea out of the back of your head into bytes
+                    and pixels!</p>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+<section id="hardware" class="section overlay overlay-clr yellow-bg  align-center">
+    <div class="container">
+        <h2 class="top32">Awesome Hardware</h2>
+        <p class="top32">We are bringing some of the latest and coolest hardware available.</p>
+        <div class="row text-center top32">
+
+            <div class="col-md-4 col-sm-6 text-center">
+                <a href="http://estimote.com/" target="_blank"><img class="img-rounded"
+                                                                    src="assets/img/hardware/estimote.png"></a>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+                <a href="https://tessel.io/" target="_blank"><img class="img-rounded"
+                                                                  src="assets/img/hardware/tessel.png"></a>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+                <a href="https://www.raspberrypi.org/" target="_blank"><img class="img-rounded"
+                                                                            src="assets/img/hardware/raspberri.png"></a>
+            </div>
+        </div>
+        <div class="row text-center top32">
+            <div class="col-md-4 col-sm-6 text-center">
+                <a href="https://www.arduino.cc/" target="_blank"><img class="img-rounded"
+                                                                       src="assets/img/hardware/arduino.png"></a>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+                <a href="https://www.microsoft.com/en-us/windows/phones" target="_blank"><img
+                        class="img-rounded" src="assets/img/hardware/windows.png"></a>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+                <a href="http://www.omni3d.com/eng/" target="_blank">
+                    <img class="img-rounded " src="assets/img/hardware/omni.png"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="schedule" class="black-bg section align-center">
+    <div class="container">
+        <h3>The Schedule</h3>
+
+        <div class="col-md-10 col-md-offset-1 top32">
+
+            <!-- Schedule start -->
+            <div class="row schedule schedule-light">
+
+                <!-- Navigation by day start -->
+                <ul class="nav nav-schedule">
+                    <li class="active"><a href="#schedule3_day1" data-toggle="tab">Tuesday, oct.21</a></li>
+                    <li><a href="#schedule3_day2" data-toggle="tab">Tuesday, oct.22</a></li>
+                    <li><a href="#schedule3_day3" data-toggle="tab">Tuesday, oct.23</a></li>
+                </ul>
+                <!-- Navigation by day end -->
+
+                <!-- First level content start -->
+                <div class="tab-content">
+                    <!-- Day 1 content start -->
+                    <div id="schedule3_day1" class="tab-pane fade active in">
+                        <!-- Accordion start -->
+                        <div class="panel-group" id="schedule3_day1_timeline">
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">19:00-20:00</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-pencil"></span></div>
+                                    <h6 class="title">Registrations</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">20:00-20:40</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-cutlery"></span></div>
+                                    <h6 class="title">Welcome and Instructions</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">20:40-21:00</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-users"></span></div>
+                                    <h6 class="title">Team Formations</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">21:00-21:30</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-cutlery"></span></div>
+                                    <h6 class="title">Dinner</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">21:00-21:30</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-code"></span></div>
+                                    <h6 class="title">Hacking begins</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Accordion end -->
+
+                    </div>
+                    <!-- Day 1 content end -->
+                    <!-- Day 2 content start -->
+                    <div id="schedule3_day2" class="tab-pane fade in">
+
+                        <!-- Accordion start -->
+                        <div class="panel-group" id="schedule3_day2_timeline">
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">09:00-09:30</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-cutlery"></span></div>
+                                    <h6 class="title">Breakfast</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">09:30-13:00</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-code"></span></div>
+                                    <h6 class="title">Hacking</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">13:00-13:30</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-cutlery"></span></div>
+                                    <h6 class="title">Lunch</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">13:30-20:30</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-code"></span></div>
+                                    <h6 class="title">Hacking</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">20:30-21:00</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-cutlery"></span></div>
+                                    <h6 class="title">Dinner</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">21:00-</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-code"></span></div>
+                                    <h6 class="title">Hacking</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Accordion end -->
+
+                    </div>
+                    <!-- Day 2 content end -->
+                    <!-- Day 3 content start -->
+                    <div id="schedule3_day3" class="tab-pane fade in">
+                        <div class="panel-group" id="schedule3_day3_timeline">
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">09:00-09:30</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-cutlery"></span></div>
+                                    <h6 class="title">Breakfast</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">09:30-14:00</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-bug"></span></div>
+                                    <h6 class="title">Hacking</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">14:00-14:30</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-cutlery"></span></div>
+                                    <h6 class="title">Lunch & Visitor Open hours starts</h6>
+                                </a>
+                            </div>
+                            <div class="panel schedule-item">
+                                <a data-toggle="collapse" href="#" class="schedule-item-toggle">
+                                    <strong class="time highlight">14:30-18:00</strong>
+                                    <div class="lecture-icon-wrapper"><span class="fa fa-comments-o"></span></div>
+                                    <h6 class="title">Judging and Presentations</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Accordion end -->
+
+                    </div>
+                    <!-- Day 3 content end -->
+
+                </div>
+                <!-- First level content end -->
+
+            </div>
+            <!-- Schedule end -->
+
+        </div>
+    </div>
+</section>
+<section id="register" class="section overlay overlay-clr bg-cover bg4 align-center">
+    <div class="container">
+        <h2>Get Your Free ticket now</h2>
+        <br/>
+        <br/>
+
+        <a href="http://hackcy2016.eventbrite.com" target="_blank" class="btn btn-lg btn-outline">Register</a>
+    </div>
+</section>
+
+<section id="sponsors" class="section align-center black-bg">
+    <div class="container">
+        <span class="icon section-icon icon-documents-bookmarks-12"></span>
+        <h3><strong>Our Sponsors</strong></h3>
+        <p class="text-alt">Thanks to our sponsors and partners below, we're able to run Hack{Cyprus} for free.</p>
+        <br/>
+        <br/>
+
+        <div class="sponsors text-center">
+            <div class="sponsor big"><a href="https://www.microsoft.com/en-cy/" target="_blank"><img
+                    src="assets/img/sponsors/microsoft.png" alt=""></a></div>
+            <div class="sponsor big"><a href="http://www.redbull.com/en" target="_blank"><img
+                    src="assets/img/sponsors/redbull.png" alt=""></a></div>
+            <div class="sponsor big"><a href="http://estimote.com/" target="_blank"><img
+                    src="assets/img/sponsors/estimote.png" alt=""></a></div>
+            <div class="sponsor big"><a href="http://www.jppmarketing.com/" target="_blank"><img
+                    src="assets/img/sponsors/jpp-marketing.png" alt=""></a></div>
+        </div>
+        <div class="sponsors">
+            <div class="sponsor big"><a href="http://cocooncreations.net/" target="_blank"><img
+                    src="assets/img/sponsors/cocoon.png" alt=""></a></div>
+            <div class="sponsor big"><a href="http://www.robotaki.com/" target="_blank"><img
+                    src="assets/img/sponsors/robotaki.png" alt=""></a></div>
+            <div class="sponsor big"><a href="http://www.pixelactions.com/" target="_blank"><img
+                    src="assets/img/sponsors/pixelactions.png" alt=""></a></div>
+            <div class="sponsor big"><a href="http://comit.com.cy/" target="_blank"><img
+                    src="assets/img/sponsors/comit.png" alt=""></a></div>
+        </div>
+        <h3 class="top100"><strong>Supporters</strong></h3>
+        <br/>
+        <br/>
+
+        <div class="sponsors">
+            <div class="sponsor big"><a href="http://www.cut.ac.cy" target="_blank"><img
+                    src="assets/img/sponsors/cut.png" alt=""></a></div>
+            <div class="sponsor big"><a href="http://www.limassolhackerspace.org/" target="_blank"><img
+                    src="assets/img/sponsors/hackerspace.png" alt=""></a></div>
+        </div>
+    </div>
+</section>
+
+<section id="faq" class="section yellow-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h3><strong>The Rules</strong></h3>
+            </div>
+        </div>
+        <div class="row top32">
+            <div class="col-sm-3 text-center">
+                <p> You can design, sketch and conceptualise beforehand, but all code must be fresh. </p>
+            </div>
+            <div class="col-sm-3 text-center">
+                <p>
+                    You're welcome to come with a team or form a team on the day.Your team must be a maximum of 5
+                    people.
+                </p>
+            </div>
+            <div class="col-sm-3 text-center">
+                <p>
+                    You will have full
+                    ownership & IP of whatever you build.
+                </p>
+            </div>
+            <div class="col-sm-3 text-center">
+                <p>
+                    Choose a good
+                    problem to solve or build something really
+                    awesome.
+                    <strong>Have fun!</strong>
+                </p>
+            </div>
+        </div>
+        <div class="row top100">
+            <div class="col-sm-12 text-center">
+                <h3><strong>FAQs</strong></h3>
+            </div>
+            <div class="col-sm-6 top32">
+                <div class="panel-group panel-group-alt" id="accordion">
+                    <div class="panel">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#panel1" aria-expanded="false"
+                           class="collapsed">When is Hack{Cyprus}?</a>
+                        <div id="panel1" class="panel-collapse collapse" style="height: auto;">
+                            <div class="panel-body">
+
+                                <p>24 June - 26 June 2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#panel2"
+                           aria-expanded="false">Wait, what's a hackathon?</a>
+                        <div id="panel2" class="panel-collapse collapse" style="height: 0px;">
+                            <div class="panel-body">
+
+                                <p>Hackathons are events where people compete to build interesting technical projects in
+                                    just over 36 hours. People come together, form teams, brainstorm, share ideas, and
+                                    help each other build awesome things. All skill levels are highly welcome, so don't
+                                    be intimidated if you don't feel your coding is up to scratch.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#panel4"
+                           aria-expanded="false">Is it really free?</a>
+                        <div id="panel4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Yep.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#panel7"
+                           aria-expanded="false">Even food?</a>
+                        <div id="panel7" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Yes! Thanks to our amazing sponsors we will be offering meals, snacks and drinks to
+                                    everyone.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 top32">
+                <div class="panel-group panel-group-alt" id="accordion2">
+
+                    <div class="panel">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#panel5"
+                           aria-expanded="false">Can I attend Hack{Cyprus}?</a>
+                        <div id="panel5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Everyone is welcome! As long as you are ready to bring your awesome idea to life and
+                                    follow our simple guidelines you are good to come!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#panel6"
+                           aria-expanded="false">What time should I arrive?</a>
+                        <div id="panel6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>The schedule can be found here.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#panel8"
+                           aria-expanded="false">Do I need to have a team?</a>
+                        <div id="panel8" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>You're welcome to make a team before the event, but loads of people come without a
+                                    team. At the start of the event, we'll help everyone find a team. One of the best
+                                    things about hackathons is meeting hackers from all over the country.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#panel9"
+                           aria-expanded="false">Who's organising Hack{Cyprus}?</a>
+                        <div id="panel9" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Hack{Cyprus} Hackathons is organised by the Cypriot Enterprise Link.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="venue">
+    <div class="contacts-wrapper">
+        <div class="google-map" id="map" style="width: 100%; height:400px; padding-top: 0px;margin-top: 0px;"></div>
+        <div class="container contacts-on-map-container">
+            <div class="contacts-on-map">
+                <h3><i class="fa fa-map-marker"></i> The Venue</h3>
+                <ul class="list">
+                    <li>Cyprus University of Technology<br>
+                        Tassos Papadopoulos Building<br>
+                        Limassol Cyprus
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer black-bg">
+    <div class="container">
+
+        <div class="col-sm-4 col-sm-offset-4 text-center">
+            <div class="widget about-widget">
+                <img src="assets/img/hc-logo.png" class="footer-logo">
+                <p class="text-alt">
+                    <small>Hack Cyprus was created by CEL, with a clear ambition in mind — putting Cyprus on the
+                        technology map. We think Cyprus is able to attract and produce world-class technologists, and we
+                        envision Cyprus being a prominent startup hub in Europe and the world.
+                    </small>
+                </p>
+
+                <a href="http://www.projectcel.com" target="_blank"><img src="assets/img/cel.png" alt="cel"></a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js?ver=1"></script>
+<![endif]-->
+<!--[if (gte IE 9) | (!IE)]><!-->
+<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js?ver=1"></script>
+<!--<![endif]-->
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="assets/js/toastr.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.appear.js"></script>
+<script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
+<script type="text/javascript" src="assets/js/jquery.countTo.js"></script>
+<script type="text/javascript" src="assets/js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="assets/js/modal-box.js"></script>
+<script type="text/javascript" src="assets/js/ventcamp.js"></script>
+<script type="text/javascript" src="assets/js/map.js"></script>
+<script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
           ga('create', 'UA-33463163-6', 'hackcyprus.com');
           ga('send', 'pageview');
-
-
-
-
-</script>
+        </script>
 </body>
-
 </html>

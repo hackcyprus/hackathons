@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a30f05ee-4232-4adb-a2f0-17095ae2da90" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/old.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/2016/images/header2.jpg" afterPath="$PROJECT_DIR$/assets/2016/images/header2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/2016/css/custom.css" afterPath="$PROJECT_DIR$/assets/2016/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/2016/js/map.js" afterPath="$PROJECT_DIR$/assets/2016/js/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-old.html" afterPath="$PROJECT_DIR$/index-old.html" />
     </list>
     <ignored path="hackathons.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.6489363">
-              <caret line="631" column="48" selection-start-line="631" selection-start-column="48" selection-end-line="631" selection-end-column="48" />
+            <state vertical-scroll-proportion="-3.5324676">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#h5#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -67,6 +62,16 @@
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-old.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index-old.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08235294">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,6 +153,7 @@
         <option value="$PROJECT_DIR$/2016/assets/js/map.js" />
         <option value="$PROJECT_DIR$/2016/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index-old.html" />
       </list>
     </option>
   </component>
@@ -747,8 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.6489363">
-          <caret line="631" column="48" selection-start-line="631" selection-start-column="48" selection-end-line="631" selection-end-column="48" />
+        <state vertical-scroll-proportion="-3.5324676">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#h5#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -756,6 +762,14 @@
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08235294">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

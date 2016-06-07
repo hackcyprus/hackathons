@@ -108,7 +108,6 @@ jQuery(document).ready(function( $ ) {
 
         function createMap( position ) {
             var map;
-
             var style = [{
                     'stylers': [{
                         'visibility': 'off'
@@ -177,6 +176,7 @@ jQuery(document).ready(function( $ ) {
                     }]
                 }];
 
+            var styleArray = [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative.province","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"},{"visibility":"on"}]},{"featureType":"administrative.locality","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.neighborhood","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"administrative.neighborhood","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"lightness":17},{"color":"#d6c400"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"lightness":18},{"color":"#a29100"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ccb300"}]},{"featureType":"road.arterial","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"lightness":16},{"color":"#5a5300"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#fbd216"},{"lightness":17}]}];
             var options = {
                 zoom: parseInt( mapData.mapZoom, 10 ),
                 center: position,
@@ -185,7 +185,10 @@ jQuery(document).ready(function( $ ) {
                 mapTypeId: google.maps.MapTypeId[mapData.mapType]
             };
 
-            map = new google.maps.Map(mapDiv[0], options);
+            map = new google.maps.StyledMapType(mapDiv[0], options);
+            map.mapTypes.set('map_style', styleArray);
+            map.setMapTypeId('map_style');
+
             var marker;
 
             function toggleBounce() {
@@ -196,11 +199,10 @@ jQuery(document).ready(function( $ ) {
                 }
             }
 
-            if( mapData.mapStyle === 'flat' ) {
-                map.setOptions({
-                    styles: style
+            map.setOptions({
+                    styles: styleArray
                 });
-            }
+
 
             if( mapData.marker === 'show' ) {
                 var image = {

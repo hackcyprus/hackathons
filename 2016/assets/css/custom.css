@@ -93,6 +93,11 @@ color: #F0C40F;
 .navigation-link.active {
     border-color: #F0C40F;
 }
+/******* JUDGES ***********/
+.speaker img:hover {
+    -webkit-filter: contrast(100%);
+    filter:contrast(100%)
+}
 /******* SPONSORS *********/
 .sponsor:not(.inline) {
     border:0px;

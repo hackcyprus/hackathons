@@ -98,6 +98,10 @@ color: #F0C40F;
     -webkit-filter: contrast(100%);
     filter:contrast(100%)
 }
+/******* FREEBIES *********/
+.freebie-img {
+    max-width:150px;
+}
 /******* SPONSORS *********/
 .sponsor:not(.inline) {
     border:0px;

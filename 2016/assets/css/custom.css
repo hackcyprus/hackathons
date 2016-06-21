@@ -141,3 +141,9 @@ color: #F0C40F;
 .yellow.yellow.yellow {
     color:#F0C40F;
 }
+.black {
+    color:#000 !important;
+}
+.thin {
+    font-weight:200;
+}
